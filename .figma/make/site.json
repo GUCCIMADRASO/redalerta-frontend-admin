@@ -1,0 +1,10 @@
+{
+  "description": "Admin dashboard for RedAlerta to review registration applications, inspect supporting documents, and approve or reject community leaders and organizations.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
