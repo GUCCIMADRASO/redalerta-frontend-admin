@@ -8,7 +8,7 @@ import type {
 } from "./types";
 
 const configuredUrl = import.meta.env.VITE_API_URL?.replace(/\/$/, "");
-const API_URL = configuredUrl || "/api/v1";
+const API_URL = import.meta.env.VITE_API_URL || "/api/v1";
 
 export class ApiError extends Error {
   status: number;
